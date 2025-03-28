@@ -1,0 +1,259 @@
+{
+    "ordered": true,
+    "Stone": {
+        "recipe": {},
+        "order": 111
+    },
+    "Coal": {
+        "recipe": {},
+        "order": 112
+    },
+    "Iron": {
+        "recipe": {},
+        "order": 113
+    },
+    "Copper": {
+        "recipe": {},
+        "order": 114
+    },
+    "Silver": {
+        "recipe": {},
+        "order": 115
+    },
+    "Gold": {
+        "recipe": {},
+        "order": 116
+    },
+    "Titanium": {
+        "recipe": {},
+        "order": 117
+    },
+    "Mithril": {
+        "recipe": {},
+        "order": 118
+    },
+    "Mercury": {
+        "recipe": {},
+        "order": 1121
+    },
+    "Uranium": {
+        "recipe": {},
+        "order": 1122
+    },
+    "Fuel": {
+        "recipe": {},
+        "order": 211
+    },
+    "Aluminum": {
+        "recipe": {},
+        "order": 212
+    },
+    "Steel": {
+        "recipe": {},
+        "order": 213
+    },
+    "Concrete": {
+        "recipe": {},
+        "order": 214
+    },
+    "Special Steel": {
+        "recipe": {},
+        "order": 215
+    },
+    "Waste": {
+        "recipe": {},
+        "order": 221
+    },
+    "Toxic Steel": {
+        "recipe": {},
+        "order": 222
+    },
+    "Strong Fabric": {
+        "recipe": {},
+        "order": 223
+    },
+    "Exotic Steel": {
+        "recipe": {},
+        "order": 224
+    },
+    "Wire1": {
+        "recipe": {
+            "Aluminum": 1,
+            "Copper": 50
+        },
+        "order": 311
+    },
+    "Wire2": {
+        "recipe": {
+            "Steel": 1,
+            "Copper": 500,
+            "Wire1": 5
+        },
+        "order": 312
+    },
+    "Wire3": {
+        "recipe": {
+            "Wire2": 4,
+            "Copper": 20000,
+            "Aluminum": 25,
+            "Wire1": 10
+        },
+        "order": 313
+    },
+    "Wire4": {
+        "recipe": {
+            "Special Steel": 50,
+            "Wire2": 20,
+            "Wire3": 10,
+            "Copper": 1000000,
+            "Steel": 425
+        },
+        "order": 314
+    },
+    "Wire5": {
+        "recipe": {
+            "Wire4": 100,
+            "Toxic Steel": 10,
+            "Battery4": 10,
+            "SpecialPlate": 2
+        },
+        "order": 315
+    },
+    "Chip1": {
+        "recipe": {
+            "Steel": 5,
+            "Wire1": 5,
+            "Silver": 100
+        },
+        "order": 411
+    },
+    "Chip2": {
+        "recipe": {
+            "Aluminum": 50,
+            "Wire2": 4,
+            "Silver": 1000,
+            "Gold": 100
+        },
+        "order": 412
+    },
+    "Chip3": {
+        "recipe": {
+            "Aluminum": 500,
+            "Wire3": 5,
+            "Silver": 25000,
+            "Gold": 2000
+        },
+        "order": 413
+    },
+    "Chip4": {
+        "recipe": {
+            "Steel": 1500,
+            "Wire4": 2,
+            "Silver": 1000000,
+            "Gold": 150000,
+            "Titanium": 2500
+        },
+        "order": 414
+    },
+    "Chip5": {
+        "recipe": {
+            "Steel": 17500,
+            "Wire4": 25,
+            "Gold": 5000000,
+            "Mithril": 2500
+        },
+        "order": 415
+    },
+    "Chip6": {
+        "recipe": {
+            "Special Steel": 32500,
+            "Wire4": 500,
+            "Mithril": 250000
+        },
+        "order": 416
+    },
+    "Chip7": {
+        "recipe": {
+            "Wire5": 10,
+            "Toxic Steel": 40,
+            "Battery4": 2,
+            "SpecialPlate": 10
+        },
+        "order": 417
+    },
+    "Battery1": {
+        "recipe": {
+            "Copper": 100,
+            "Aluminum": 2,
+            "Wire1": 2
+        },
+        "order": 421
+    },
+    "Battery2": {
+        "recipe": {
+            "Battery1": 100,
+            "Steel": 100,
+            "Wire3": 2
+        },
+        "order": 422
+    },
+    "Battery3": {
+        "recipe": {
+            "Battery2": 100,
+            "Special Steel": 5000,
+            "Wire4": 50
+        },
+        "order": 423
+    },
+    "Computer1": {
+        "recipe": {
+            "Battery1": 5,
+            "Chip1": 3
+        },
+        "order": 511
+    },
+    "Computer2": {
+        "recipe": {
+            "Battery1": 25,
+            "Chip2": 3
+        },
+        "order": 512
+    },
+    "Computer3": {
+        "recipe": {
+            "Battery2": 2,
+            "Chip3": 3
+        },
+        "order": 513
+    },
+    "Computer4": {
+        "recipe": {
+            "Battery2": 15,
+            "Chip4": 3
+        },
+        "order": 514
+    },
+    "Computer5": {
+        "recipe": {
+            "Battery2": 100,
+            "Chip5": 3
+        },
+        "order": 515
+    },
+    "Computer6": {
+        "recipe": {
+            "Battery3": 10,
+            "Chip6": 3
+        },
+        "order": 516
+    },
+    "Computer7": {
+        "recipe": {
+            "Chip7": 5,
+            "Battery4": 6,
+            "Strong Fabric": 50,
+            "SpecialPlate": 50
+        },
+        "order": 517
+    }
+}

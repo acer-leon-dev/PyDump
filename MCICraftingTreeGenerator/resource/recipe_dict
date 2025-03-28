@@ -1,0 +1,43 @@
+
+
+
+crafting_items_recipes = {
+    # Natural/Mined Materials
+    "ordered": True,
+    "Stone": {"recipe": {}, "order": 1.11},
+    "Coal": {"recipe": {}, "order": 1.12},
+    "Iron": {"recipe": {}, "order": 1.13},
+    "Copper": {"recipe": {}, "order": 1.14},
+    "Silver": {"recipe": {}, "order": 1.15},
+    "Gold": {"recipe": {}, "order": 1.16},
+    "Titanium": {"recipe": {}, "order": 1.17},
+    "Mithril": {"recipe": {}, "order": 1.18},
+    # Produced Material, "order}: s
+    "Fuel": {"recipe": {}, "order": 2.11},
+    "Aluminum": {"recipe": {}, "order": 2.12},
+    "Steel": {"recipe": {}, "order": 2.13},
+    "Concrete": {"recipe": {}, "order": 2.14},
+    "Special Steel": {"recipe": {}, "order": 2.15},
+    # Crafted Material, "order}: s
+    "Wire1": {"recipe": {"Aluminum": 1, "Copper": 50}, "order": 3.11},
+    "Wire2": {"recipe": {"Steel": 1, "Copper": 500, "Wire1": 5}, "order": 3.12},
+    "Wire3": {"recipe": {"Wire2": 4, "Copper": 20_000, "Aluminum": 25, "Wire1": 10}, "order": 3.13},
+    "Wire4": {"recipe": {"Special Steel": 50, "Wire2": 20, "Wire3": 10, "Copper": 1_000_000, "Steel": 425},
+              "order": 3.14},
+    "Chip1": {"recipe": {"Steel": 5, "Wire1": 5, "Silver": 100}, "order": 4.11},
+    "Chip2": {"recipe": {"Aluminum": 50, "Wire2": 4, "Silver": 1_000, "Gold": 100}, "order": 4.12},
+    "Chip3": {"recipe": {"Aluminum": 500, "Wire3": 5, "Silver": 25_000, "Gold": 2_000}, "order": 4.13},
+    "Chip4": {"recipe": {"Steel": 1_500, "Wire4": 2, "Silver": 1_000_000, "Gold": 150_000, "Titanium": 2_500},
+              "order": 4.14},
+    "Chip5": {"recipe": {"Steel": 17_500, "Wire4": 25, "Gold": 5_000_000, "Mithril": 2_500}, "order": 4.15},
+    "Chip6": {"recipe": {"Special Steel": 32_500, "Wire4": 500, "Mithril": 250_000}, "order": 4.16},
+    "Battery1": {"recipe": {"Copper": 100, "Aluminum": 2, "Wire1": 2}, "order": 4.21},
+    "Battery2": {"recipe": {"Battery1": 100, "Steel": 100, "Wire3": 2}, "order": 4.22},
+    "Battery3": {"recipe": {"Battery2": 100, "Special Steel": 5_000, "Wire4": 50}, "order": 4.23},
+    "Computer1": {"recipe": {"Battery1": 5, "Chip1": 3}, "order": 5.11},
+    "Computer2": {"recipe": {"Battery1": 25, "Chip2": 3}, "order": 5.12},
+    "Computer3": {"recipe": {"Battery2": 2, "Chip3": 3}, "order": 5.13},
+    "Computer4": {"recipe": {"Battery2": 15, "Chip4": 3}, "order": 5.14},
+    "Computer5": {"recipe": {"Battery2": 100, "Chip5": 3}, "order": 5.15},
+    "Computer6": {"recipe": {"Battery3": 10, "Chip6": 3}, "order": 5.16},
+}
